@@ -1,12 +1,11 @@
-import Homepage from "./components/pages/homepage"
+import { Route, Routes} from "react-router"
+import Homepage from "./components/pages/Home/Homepage"
 function App() {
   
   return (
-    <>
-      <div>
-       <Homepage/>
-      </div>
-    </>
+    <Routes>
+      <Route path="/" element={<Homepage/>}/>
+    </Routes>
   )
 }
 

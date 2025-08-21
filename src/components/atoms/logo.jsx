@@ -1,10 +1,9 @@
-import logo from '../../assets/images/logo.jpeg'
+import React from 'react'
+import Logo from '../../assets/images/Logo.jpeg'
 
 const logo = () => {
   return (
-    <div>
-        <img src={logo} alt="logo de empresa"/>
-    </div>
+    <img src={Logo} className="logo" alt="logo corporativo"/>
   )
 }
 

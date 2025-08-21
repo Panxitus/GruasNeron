@@ -314,4 +314,19 @@ template {
   display: none;
 }
 
+.logo {
+  height: 100px;
+  width: 100px;
+}
+
+.header {
+  background-color: white;
+}
+
+.menu {
+  color: yellow;
+  font-size: x-large;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 /*# sourceMappingURL=main.css.map */

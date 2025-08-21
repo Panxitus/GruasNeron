@@ -2,4 +2,12 @@
 
 //base
 @import 'base/reset';
-@import 'base/normalize'
+@import 'base/normalize';
+
+//components atoms
+@import 'components/atoms/logo';
+//components loyout
+@import 'components/layout/header';
+@import 'components/layout/navbar';
+@import 'components/layout/footer';
+
