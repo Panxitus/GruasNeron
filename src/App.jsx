@@ -1,10 +1,10 @@
-import { Route, Routes} from "react-router"
-import Homepage from "./components/pages/Home/Homepage"
+import { Routes } from 'react-router'
+import Logo from '/src/components/atoms/logo'
 function App() {
   
   return (
     <Routes>
-      <Route path="/" element={<Homepage/>}/>
+     <Logo/>
     </Routes>
   )
 }
