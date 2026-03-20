@@ -2,7 +2,6 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color: red;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -317,6 +316,13 @@ template {
 .logo {
   height: 100px;
   width: 100px;
+}
+
+.button {
+  padding: 50px;
+  border-color: red;
+  background-color: black;
+  color: white;
 }
 
 /*# sourceMappingURL=main.css.map */
